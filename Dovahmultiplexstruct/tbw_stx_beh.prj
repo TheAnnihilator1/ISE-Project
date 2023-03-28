@@ -1,0 +1,3 @@
+vhdl isim_temp "submultiplex.vhd"
+vhdl isim_temp "multiplex.vhd"
+vhdl isim_temp "tbw.vhd"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/ISE Project/Dovahhalfsubt/halfsubt.xst" -ofn "C:/ISE Project/Dovahhalfsubt/halfsubt.syr" 
+xst -intstyle ise -ifn "C:/ISE Project/Dovahhalfsubt/halfsubt.xst" -ofn "C:/ISE Project/Dovahhalfsubt/halfsubt.syr" 

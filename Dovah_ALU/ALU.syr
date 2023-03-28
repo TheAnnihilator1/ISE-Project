@@ -1,0 +1,472 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/XORgate.vhd" in Library work.
+Architecture behavioral of Entity xorgate is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/ANDgate.vhd" in Library work.
+Architecture behavioral of Entity andgate is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/MUXA.vhd" in Library work.
+Architecture behavioral of Entity muxa is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/Halfadder.vhd" in Library work.
+Architecture behavioral of Entity halfadder is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/ORgate.vhd" in Library work.
+Architecture behavioral of Entity orgate is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/AU.vhd" in Library work.
+Architecture behavioral of Entity au is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/LU.vhd" in Library work.
+Architecture behavioral of Entity lu is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/MUX.vhd" in Library work.
+Architecture behavioral of Entity mux is up to date.
+Compiling vhdl file "C:/ISE Project/Dovah_ALU/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <AU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUXA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Halfadder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ORgate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <XORgate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ANDgate> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <AU> in library <work> (Architecture <behavioral>).
+Entity <AU> analyzed. Unit <AU> generated.
+
+Analyzing Entity <MUXA> in library <work> (Architecture <behavioral>).
+Entity <MUXA> analyzed. Unit <MUXA> generated.
+
+Analyzing Entity <Halfadder> in library <work> (Architecture <behavioral>).
+Entity <Halfadder> analyzed. Unit <Halfadder> generated.
+
+Analyzing Entity <ORgate> in library <work> (Architecture <behavioral>).
+Entity <ORgate> analyzed. Unit <ORgate> generated.
+
+Analyzing Entity <LU> in library <work> (Architecture <behavioral>).
+Entity <LU> analyzed. Unit <LU> generated.
+
+Analyzing Entity <XORgate> in library <work> (Architecture <behavioral>).
+Entity <XORgate> analyzed. Unit <XORgate> generated.
+
+Analyzing Entity <ANDgate> in library <work> (Architecture <behavioral>).
+Entity <ANDgate> analyzed. Unit <ANDgate> generated.
+
+Analyzing Entity <MUX> in library <work> (Architecture <behavioral>).
+Entity <MUX> analyzed. Unit <MUX> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <MUX>.
+    Related source file is "C:/ISE Project/Dovah_ALU/MUX.vhd".
+Unit <MUX> synthesized.
+
+
+Synthesizing Unit <MUXA>.
+    Related source file is "C:/ISE Project/Dovah_ALU/MUXA.vhd".
+Unit <MUXA> synthesized.
+
+
+Synthesizing Unit <Halfadder>.
+    Related source file is "C:/ISE Project/Dovah_ALU/Halfadder.vhd".
+    Found 4x4-bit ROM for signal <baf$rom0000>.
+WARNING:Xst:737 - Found 2-bit latch for signal <oaf>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 2-bit latch for signal <caf>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 2-bit 4-to-1 multiplexer for signal <caf$mux0013>.
+    Found 2-bit 4-to-1 multiplexer for signal <oaf$mux0014>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <Halfadder> synthesized.
+
+
+Synthesizing Unit <ORgate>.
+    Related source file is "C:/ISE Project/Dovah_ALU/ORgate.vhd".
+Unit <ORgate> synthesized.
+
+
+Synthesizing Unit <XORgate>.
+    Related source file is "C:/ISE Project/Dovah_ALU/XORgate.vhd".
+    Found 1-bit xor4 for signal <sgao3>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <XORgate> synthesized.
+
+
+Synthesizing Unit <ANDgate>.
+    Related source file is "C:/ISE Project/Dovah_ALU/ANDgate.vhd".
+Unit <ANDgate> synthesized.
+
+
+Synthesizing Unit <AU>.
+    Related source file is "C:/ISE Project/Dovah_ALU/AU.vhd".
+Unit <AU> synthesized.
+
+
+Synthesizing Unit <LU>.
+    Related source file is "C:/ISE Project/Dovah_ALU/LU.vhd".
+Unit <LU> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:/ISE Project/Dovah_ALU/ALU.vhd".
+Unit <ALU> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 4x4-bit ROM                                           : 2
+# Latches                                              : 4
+ 2-bit latch                                           : 4
+# Multiplexers                                         : 4
+ 2-bit 4-to-1 multiplexer                              : 4
+# Xors                                                 : 1
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 4x4-bit ROM                                           : 2
+# Latches                                              : 4
+ 2-bit latch                                           : 4
+# Multiplexers                                         : 4
+ 2-bit 4-to-1 multiplexer                              : 4
+# Xors                                                 : 1
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <caf_1> (without init value) has a constant value of 0 in block <Halfadder>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <Halfadder> ...
+WARNING:Xst:1294 - Latch <A1/AA3/oaf_1> is equivalent to a wire in block <ALU>.
+WARNING:Xst:1294 - Latch <A1/AA3/oaf_0> is equivalent to a wire in block <ALU>.
+WARNING:Xst:1294 - Latch <A1/AA3/caf_0> is equivalent to a wire in block <ALU>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU.ngr
+Top Level Output File Name         : ALU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 17
+#      GND                         : 1
+#      LUT2                        : 4
+#      LUT4                        : 8
+#      MUXF5                       : 4
+# FlipFlops/Latches                : 3
+#      LD                          : 3
+# IO Buffers                       : 10
+#      IBUF                        : 6
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                        8  out of    960     0%  
+ Number of Slice Flip Flops:              3  out of   1920     0%  
+ Number of 4 input LUTs:                 12  out of   1920     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of     66    15%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------+------------------------+-------+
+Clock Signal                             | Clock buffer(FF name)  | Load  |
+-----------------------------------------+------------------------+-------+
+A1/AA2/oaf_not0001(A1/AA2/oaf_not00011:O)| NONE(*)(A1/AA2/oaf_1)  | 3     |
+-----------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 3.920ns
+   Maximum output required time after clock: 5.607ns
+   Maximum combinational path delay: 7.642ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'A1/AA2/oaf_not0001'
+  Total number of paths / destination ports: 18 / 3
+-------------------------------------------------------------------------
+Offset:              3.920ns (Levels of Logic = 3)
+  Source:            s<0> (PAD)
+  Destination:       A1/AA2/oaf_0 (LATCH)
+  Destination Clock: A1/AA2/oaf_not0001 falling
+
+  Data Path: s<0> to A1/AA2/oaf_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.106   0.754  s_0_IBUF (s_0_IBUF)
+     LUT2:I0->O            4   0.612   0.568  A1/AA1/oam<0>1 (A1/sga3<0>)
+     LUT4:I1->O            1   0.612   0.000  A1/AA2/Mmux_oaf_mux001431 (A1/AA2/oaf_mux0014<0>)
+     LD:D                      0.268          A1/AA2/oaf_0
+    ----------------------------------------
+    Total                      3.920ns (2.598ns logic, 1.322ns route)
+                                       (66.3% logic, 33.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'A1/AA2/oaf_not0001'
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Offset:              5.607ns (Levels of Logic = 3)
+  Source:            A1/AA2/oaf_0 (LATCH)
+  Destination:       o<0> (PAD)
+  Source Clock:      A1/AA2/oaf_not0001 falling
+
+  Data Path: A1/AA2/oaf_0 to o<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               3   0.588   0.603  A1/AA2/oaf_0 (A1/AA2/oaf_0)
+     LUT2:I0->O            1   0.612   0.000  A3/om<0>632 (A3/om<0>631)
+     MUXF5:I0->O           1   0.278   0.357  A3/om<0>63_f5 (o_0_OBUF)
+     OBUF:I->O                 3.169          o_0_OBUF (o<0>)
+    ----------------------------------------
+    Total                      5.607ns (4.647ns logic, 0.960ns route)
+                                       (82.9% logic, 17.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 3
+-------------------------------------------------------------------------
+Delay:               7.642ns (Levels of Logic = 6)
+  Source:            a<0> (PAD)
+  Destination:       o<0> (PAD)
+
+  Data Path: a<0> to o<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.106   0.721  a_0_IBUF (a_0_IBUF)
+     LUT4:I0->O            1   0.612   0.000  A3/om<0>91 (A3/om<0>91)
+     MUXF5:I0->O           1   0.278   0.509  A3/om<0>9_f5 (A3/om<0>9)
+     LUT2:I0->O            1   0.612   0.000  A3/om<0>631 (A3/om<0>63)
+     MUXF5:I1->O           1   0.278   0.357  A3/om<0>63_f5 (o_0_OBUF)
+     OBUF:I->O                 3.169          o_0_OBUF (o<0>)
+    ----------------------------------------
+    Total                      7.642ns (6.055ns logic, 1.587ns route)
+                                       (79.2% logic, 20.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.27 secs
+ 
+--> 
+
+Total memory usage is 4514492 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

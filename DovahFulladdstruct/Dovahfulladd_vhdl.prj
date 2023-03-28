@@ -1,0 +1,5 @@
+vhdl work "C:\ISE Project\DovahFulladdstruct\xorgate.vhd"
+vhdl work "C:\ISE Project\DovahFulladdstruct\andgate.vhd"
+vhdl work "C:\ISE Project\DovahFulladdstruct\orgate.vhd"
+vhdl work "C:\ISE Project\DovahFulladdstruct\halfadder.vhd"
+vhdl work "C:\ISE Project\DovahFulladdstruct\Dovahfulladd.vhd"

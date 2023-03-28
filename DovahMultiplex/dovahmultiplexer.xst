@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Project/DovahMultiplex/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Project/DovahMultiplex/xst"
+elaborate
+-ifn dovahmultiplexer.prj
+-ifmt mixed

@@ -1,0 +1,6 @@
+V3 3
+FL "C:/ISE Project/fds/i.vhd" 2023/03/29.01:47:49 P.20131013
+EN work/Half_Subtractor 1680034671 FL "C:/ISE Project/fds/i.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Half_Subtractor/Behavioral 1680034672 \
+      FL "C:/ISE Project/fds/i.vhd" EN work/Half_Subtractor 1680034671

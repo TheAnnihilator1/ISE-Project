@@ -1,0 +1,11 @@
+V3 7
+EN work/bintogre 0 FL "C:/ISE Project/Dovah_Binarytogrey/bintogre.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/bintogre/Behavioral 0 \
+      FL "C:/ISE Project/Dovah_Binarytogrey/bintogre.vhd" EN work/bintogre 0 \
+      CP xorgate
+FL "C:/ISE Project/Dovah_Binarytogrey/xorgate.vhd" 2023/02/19.21:59:59 P.20131013
+EN work/xorgate 1676825184 FL "C:/ISE Project/Dovah_Binarytogrey/xorgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/xorgate/Behavioral 1676825185 \
+      FL "C:/ISE Project/Dovah_Binarytogrey/xorgate.vhd" EN work/xorgate 1676825184

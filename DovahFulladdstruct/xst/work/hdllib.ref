@@ -1,0 +1,10 @@
+EN dovahfulladd NULL "C:/ISE Project/DovahFulladdstruct/Dovahfulladd.vhd" sub00/vhpl00 1675613668
+EN halfadder NULL "C:/ISE Project/DovahFulladdstruct/halfadder.vhd" sub00/vhpl02 1675613664
+EN orgate NULL "C:/ISE Project/DovahFulladdstruct/orgate.vhd" sub00/vhpl08 1675613666
+EN xorgate NULL "C:/ISE Project/DovahFulladdstruct/xorgate.vhd" sub00/vhpl04 1675613660
+AR orgate behavioral "C:/ISE Project/DovahFulladdstruct/orgate.vhd" sub00/vhpl09 1675613667
+AR dovahfulladd behavioral "C:/ISE Project/DovahFulladdstruct/Dovahfulladd.vhd" sub00/vhpl01 1675613669
+EN andgate NULL "C:/ISE Project/DovahFulladdstruct/andgate.vhd" sub00/vhpl06 1675613662
+AR xorgate behavioral "C:/ISE Project/DovahFulladdstruct/xorgate.vhd" sub00/vhpl05 1675613661
+AR halfadder behavioral "C:/ISE Project/DovahFulladdstruct/halfadder.vhd" sub00/vhpl03 1675613665
+AR andgate behavioral "C:/ISE Project/DovahFulladdstruct/andgate.vhd" sub00/vhpl07 1675613663

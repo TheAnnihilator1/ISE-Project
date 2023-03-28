@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/iuv/TBW_Full_Adder_isim_beh.exe" -prj "C:/ISE Project/iuv/TBW_Full_Adder_beh.prj" "work.TBW_Full_Adder" 

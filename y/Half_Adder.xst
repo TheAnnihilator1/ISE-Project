@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Project/y/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Project/y/xst"
+elaborate
+-ifn Half_Adder.prj
+-ifmt mixed

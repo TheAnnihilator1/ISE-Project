@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/DovahFulladdstruct/fuladtbw_isim_beh.exe" -prj "C:/ISE Project/DovahFulladdstruct/fuladtbw_beh.prj" "work.fuladtbw" 

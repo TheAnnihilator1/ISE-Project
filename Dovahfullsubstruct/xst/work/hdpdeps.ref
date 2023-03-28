@@ -1,0 +1,33 @@
+V3 23
+FL "C:/ISE Project/Dovahfullsubstruct/andgate.vhd" 2023/02/05.22:20:36 P.20131013
+EN work/andgate 1675621004 FL "C:/ISE Project/Dovahfullsubstruct/andgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/andgate/Behavioral 1675621005 \
+      FL "C:/ISE Project/Dovahfullsubstruct/andgate.vhd" EN work/andgate 1675621004
+FL "C:/ISE Project/Dovahfullsubstruct/fullsub.vhd" 2023/02/05.22:11:25 P.20131013
+EN work/fullsub 1675621012 FL "C:/ISE Project/Dovahfullsubstruct/fullsub.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/fullsub/Behavioral 1675621013 \
+      FL "C:/ISE Project/Dovahfullsubstruct/fullsub.vhd" EN work/fullsub 1675621012 \
+      CP halfsub CP orgate
+FL "C:/ISE Project/Dovahfullsubstruct/halfsub.vhd" 2023/02/05.22:21:14 P.20131013
+EN work/halfsub 1675621008 FL "C:/ISE Project/Dovahfullsubstruct/halfsub.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/halfsub/Behavioral 1675621009 \
+      FL "C:/ISE Project/Dovahfullsubstruct/halfsub.vhd" EN work/halfsub 1675621008 \
+      CP xorgate CP andgate CP notgate
+FL "C:/ISE Project/Dovahfullsubstruct/notgate.vhd" 2023/02/05.22:20:37 P.20131013
+EN work/notgate 1675621006 FL "C:/ISE Project/Dovahfullsubstruct/notgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/notgate/Behavioral 1675621007 \
+      FL "C:/ISE Project/Dovahfullsubstruct/notgate.vhd" EN work/notgate 1675621006
+FL "C:/ISE Project/Dovahfullsubstruct/orgate.vhd" 2023/02/05.22:14:19 P.20131013
+EN work/orgate 1675621010 FL "C:/ISE Project/Dovahfullsubstruct/orgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/orgate/Behavioral 1675621011 \
+      FL "C:/ISE Project/Dovahfullsubstruct/orgate.vhd" EN work/orgate 1675621010
+FL "C:/ISE Project/Dovahfullsubstruct/xorgate.vhd" 2023/02/05.22:20:50 P.20131013
+EN work/xorgate 1675621002 FL "C:/ISE Project/Dovahfullsubstruct/xorgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/xorgate/Behavioral 1675621003 \
+      FL "C:/ISE Project/Dovahfullsubstruct/xorgate.vhd" EN work/xorgate 1675621002

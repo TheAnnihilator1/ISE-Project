@@ -1,0 +1,29 @@
+V3 19
+FL "C:/ISE Project/DovahFulladdstruct/andgate.vhd" 2023/02/05.21:37:19 P.20131013
+EN work/andgate 1675613662 FL "C:/ISE Project/DovahFulladdstruct/andgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/andgate/Behavioral 1675613663 \
+      FL "C:/ISE Project/DovahFulladdstruct/andgate.vhd" EN work/andgate 1675613662
+FL "C:/ISE Project/DovahFulladdstruct/Dovahfulladd.vhd" 2023/02/05.21:33:25 P.20131013
+EN work/Dovahfulladd 1675613668 \
+      FL "C:/ISE Project/DovahFulladdstruct/Dovahfulladd.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Dovahfulladd/Behavioral 1675613669 \
+      FL "C:/ISE Project/DovahFulladdstruct/Dovahfulladd.vhd" \
+      EN work/Dovahfulladd 1675613668 CP halfadder CP orgate
+FL "C:/ISE Project/DovahFulladdstruct/halfadder.vhd" 2023/02/05.21:36:24 P.20131013
+EN work/halfadder 1675613664 FL "C:/ISE Project/DovahFulladdstruct/halfadder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/halfadder/Behavioral 1675613665 \
+      FL "C:/ISE Project/DovahFulladdstruct/halfadder.vhd" EN work/halfadder 1675613664 \
+      CP xorgate CP andgate
+FL "C:/ISE Project/DovahFulladdstruct/orgate.vhd" 2023/02/05.21:39:46 P.20131013
+EN work/orgate 1675613666 FL "C:/ISE Project/DovahFulladdstruct/orgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/orgate/Behavioral 1675613667 \
+      FL "C:/ISE Project/DovahFulladdstruct/orgate.vhd" EN work/orgate 1675613666
+FL "C:/ISE Project/DovahFulladdstruct/xorgate.vhd" 2023/02/05.21:36:25 P.20131013
+EN work/xorgate 1675613660 FL "C:/ISE Project/DovahFulladdstruct/xorgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/xorgate/Behavioral 1675613661 \
+      FL "C:/ISE Project/DovahFulladdstruct/xorgate.vhd" EN work/xorgate 1675613660

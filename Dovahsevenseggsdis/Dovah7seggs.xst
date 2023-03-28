@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Project/Dovahsevenseggsdis/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Project/Dovahsevenseggsdis/xst"
+elaborate
+-ifn Dovah7seggs.prj
+-ifmt mixed

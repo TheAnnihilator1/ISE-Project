@@ -1,0 +1,2 @@
+vhdtdtfi -lib work MUXA.vhd -prj Dovah_ALU -o MUXA.spl -module MUXA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUXA.spl {C:/ISE Project/Dovah_ALU/MUXA.sym} 

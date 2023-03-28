@@ -1,0 +1,12 @@
+V3 7
+FL "C:/ISE Project/Dovah_JKflipflop/JK.vhd" 2023/03/21.00:21:51 P.20131013
+EN work/JK 1679339927 FL "C:/ISE Project/Dovah_JKflipflop/JK.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/JK/Behavioral 1679339928 \
+      FL "C:/ISE Project/Dovah_JKflipflop/JK.vhd" EN work/JK 1679339927 \
+      CP NANDgate
+FL "C:/ISE Project/Dovah_JKflipflop/NANDgate.vhd" 2023/03/21.00:48:37 P.20131013
+EN work/NANDgate 1679339925 FL "C:/ISE Project/Dovah_JKflipflop/NANDgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/NANDgate/Behavioral 1679339926 \
+      FL "C:/ISE Project/Dovah_JKflipflop/NANDgate.vhd" EN work/NANDgate 1679339925

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/Dovahfullsubt/uckkcuk_isim_beh.exe" -prj "C:/ISE Project/Dovahfullsubt/uckkcuk_beh.prj" "work.uckkcuk" 

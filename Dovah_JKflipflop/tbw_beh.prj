@@ -1,0 +1,3 @@
+vhdl work "NANDgate.vhd"
+vhdl work "JK.vhd"
+vhdl work "tbw.vhd"

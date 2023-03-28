@@ -1,0 +1,3 @@
+vhdl isim_temp "NANDgate.vhd"
+vhdl isim_temp "JK.vhd"
+vhdl isim_temp "tbw.vhd"

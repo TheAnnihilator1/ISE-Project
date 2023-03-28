@@ -1,0 +1,3 @@
+vhdl work "MUXA.vhd"
+vhdl work "Halfadder.vhd"
+vhdl work "AU.vhd"

@@ -1,0 +1,29 @@
+Command line:
+   HalfSubttbw_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50295
+
+Fri Jan 27 23:33:54 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5151.52 Meg
+
+ Total Signals          : 8
+ Total Nets             : 4
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 364
+Total Line Count : 17
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 5466.09 Meg
+
+Fri Jan 27 23:34:38 2023
+

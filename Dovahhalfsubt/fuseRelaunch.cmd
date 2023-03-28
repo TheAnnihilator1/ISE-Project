@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/Dovahhalfsubt/HalfSubttbw_isim_beh.exe" -prj "C:/ISE Project/Dovahhalfsubt/HalfSubttbw_beh.prj" "work.HalfSubttbw" 

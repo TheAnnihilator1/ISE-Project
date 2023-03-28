@@ -1,0 +1,6 @@
+V3 3
+FL "C:/ISE Project/sevenseggs/seggs.vhd" 2023/03/29.01:10:14 P.20131013
+EN work/VII_Seg_Disp 1680032420 FL "C:/ISE Project/sevenseggs/seggs.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/VII_Seg_Disp/Behavioral 1680032421 \
+      FL "C:/ISE Project/sevenseggs/seggs.vhd" EN work/VII_Seg_Disp 1680032420

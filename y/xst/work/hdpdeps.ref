@@ -1,0 +1,12 @@
+V3 10
+FL "C:/ISE Project/y/fyh.vhd" 2023/03/29.02:07:01 P.20131013
+EN work/Full_Adder 1680035822 FL "C:/ISE Project/y/fyh.vhd" PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/Behavioral 1680035823 \
+      FL "C:/ISE Project/y/fyh.vhd" EN work/Full_Adder 1680035822 CP Half_Adder \
+      CP or_gate
+FL "C:/ISE Project/y/Half_Adder.vhd" 2023/03/29.02:08:07 P.20131013
+EN work/Half_Adder 1680035888 FL "C:/ISE Project/y/Half_Adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Half_Adder/Behavioral 1680035889 \
+      FL "C:/ISE Project/y/Half_Adder.vhd" EN work/Half_Adder 1680035888 \
+      CP xor_gate CP and_gate

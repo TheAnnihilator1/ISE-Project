@@ -1,0 +1,29 @@
+Command line:
+   TBW_Full_Subtractor_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57536
+
+Wed Mar 29 01:32:21 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5151.48 Meg
+
+ Total Signals          : 10
+ Total Nets             : 5
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 365
+Total Line Count : 14
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 4679.62 Meg
+
+Wed Mar 29 01:48:27 2023
+

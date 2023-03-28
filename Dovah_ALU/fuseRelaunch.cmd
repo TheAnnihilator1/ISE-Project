@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/Dovah_ALU/TBW_isim_beh.exe" -prj "C:/ISE Project/Dovah_ALU/TBW_beh.prj" "work.TBW" 

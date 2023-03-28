@@ -1,0 +1,4 @@
+AR nandgate behavioral "C:/ISE Project/Dovah_JKflipflop/NANDgate.vhd" sub00/vhpl03 1679339926
+EN jk NULL "C:/ISE Project/Dovah_JKflipflop/JK.vhd" sub00/vhpl00 1679339927
+AR jk behavioral "C:/ISE Project/Dovah_JKflipflop/JK.vhd" sub00/vhpl01 1679339928
+EN nandgate NULL "C:/ISE Project/Dovah_JKflipflop/NANDgate.vhd" sub00/vhpl02 1679339925

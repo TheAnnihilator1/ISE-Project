@@ -1,0 +1,12 @@
+EN notgate NULL "C:/ISE Project/Dovahfullsubstruct/notgate.vhd" sub00/vhpl10 1675621006
+EN orgate NULL "C:/ISE Project/Dovahfullsubstruct/orgate.vhd" sub00/vhpl04 1675621010
+EN xorgate NULL "C:/ISE Project/Dovahfullsubstruct/xorgate.vhd" sub00/vhpl06 1675621002
+EN fullsub NULL "C:/ISE Project/Dovahfullsubstruct/fullsub.vhd" sub00/vhpl00 1675621012
+AR orgate behavioral "C:/ISE Project/Dovahfullsubstruct/orgate.vhd" sub00/vhpl05 1675621011
+EN halfsub NULL "C:/ISE Project/Dovahfullsubstruct/halfsub.vhd" sub00/vhpl02 1675621008
+AR halfsub behavioral "C:/ISE Project/Dovahfullsubstruct/halfsub.vhd" sub00/vhpl03 1675621009
+EN andgate NULL "C:/ISE Project/Dovahfullsubstruct/andgate.vhd" sub00/vhpl08 1675621004
+AR xorgate behavioral "C:/ISE Project/Dovahfullsubstruct/xorgate.vhd" sub00/vhpl07 1675621003
+AR fullsub behavioral "C:/ISE Project/Dovahfullsubstruct/fullsub.vhd" sub00/vhpl01 1675621013
+AR notgate behavioral "C:/ISE Project/Dovahfullsubstruct/notgate.vhd" sub00/vhpl11 1675621007
+AR andgate behavioral "C:/ISE Project/Dovahfullsubstruct/andgate.vhd" sub00/vhpl09 1675621005

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ISE Project/Dovahfullsubt/Fullsubt.xst" -ofn "C:/ISE Project/Dovahfullsubt/Fullsubt.syr" 

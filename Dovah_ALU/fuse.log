@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/ISE Project/Dovah_ALU/TBW_isim_beh.exe -prj C:/ISE Project/Dovah_ALU/TBW_beh.prj work.TBW 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/XORgate.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/ORgate.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/MUXA.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/Halfadder.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/ANDgate.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/MUX.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/LU.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/AU.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/ALU.vhd" into library work
+Parsing VHDL file "C:/ISE Project/Dovah_ALU/TBW.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity MUXA [muxa_default]
+Compiling architecture behavioral of entity Halfadder [halfadder_default]
+Compiling architecture behavioral of entity ORgate [orgate_default]
+Compiling architecture behavioral of entity AU [au_default]
+Compiling architecture behavioral of entity XORgate [xorgate_default]
+Compiling architecture behavioral of entity ANDgate [andgate_default]
+Compiling architecture behavioral of entity LU [lu_default]
+Compiling architecture behavioral of entity MUX [mux_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavior of entity tbw
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable C:/ISE Project/Dovah_ALU/TBW_isim_beh.exe
+Fuse Memory Usage: 35100 KB
+Fuse CPU Usage: 358 ms

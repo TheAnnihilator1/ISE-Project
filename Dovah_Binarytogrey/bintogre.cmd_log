@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ISE Project/Dovah_Binarytogrey/bintogre.xst" -ofn "C:/ISE Project/Dovah_Binarytogrey/bintogre.syr" 

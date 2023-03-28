@@ -1,0 +1,4 @@
+vhdl work "xorgate.vhd"
+vhdl work "notgate.vhd"
+vhdl work "andgate.vhd"
+vhdl work "halfsub.vhd"

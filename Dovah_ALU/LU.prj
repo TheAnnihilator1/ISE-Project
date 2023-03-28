@@ -1,0 +1,4 @@
+vhdl work "XORgate.vhd"
+vhdl work "MUXA.vhd"
+vhdl work "ANDgate.vhd"
+vhdl work "LU.vhd"

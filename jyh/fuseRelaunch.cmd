@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/jyh/TBW_Full_Subtractor_isim_beh.exe" -prj "C:/ISE Project/jyh/TBW_Full_Subtractor_beh.prj" "work.TBW_Full_Subtractor" 

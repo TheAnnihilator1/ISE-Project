@@ -1,0 +1,6 @@
+vhdl isim_temp "xorgate.vhd"
+vhdl isim_temp "andgate.vhd"
+vhdl isim_temp "orgate.vhd"
+vhdl isim_temp "halfadder.vhd"
+vhdl isim_temp "Dovahfulladd.vhd"
+vhdl isim_temp "fuladtbw.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ISE Project/iuv/Full_Adder.xst" -ofn "C:/ISE Project/iuv/Full_Adder.syr" 

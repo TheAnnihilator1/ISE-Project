@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ISE Project/fds/Half_Subtractor.xst" -ofn "C:/ISE Project/fds/Half_Subtractor.syr" 

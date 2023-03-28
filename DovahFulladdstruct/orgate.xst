@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Project/DovahFulladdstruct/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Project/DovahFulladdstruct/xst"
+elaborate
+-ifn orgate.prj
+-ifmt mixed

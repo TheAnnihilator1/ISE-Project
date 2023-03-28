@@ -1,0 +1,15 @@
+V3 7
+FL "C:/ISE Project/Dovahmultiplexstruct/multiplex.vhd" 2023/02/12.15:47:30 P.20131013
+EN work/multiplex 1676310890 \
+      FL "C:/ISE Project/Dovahmultiplexstruct/multiplex.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplex/Behavioral 1676310891 \
+      FL "C:/ISE Project/Dovahmultiplexstruct/multiplex.vhd" EN work/multiplex 1676310890 \
+      CP submultiplex
+FL "C:/ISE Project/Dovahmultiplexstruct/submultiplex.vhd" 2023/02/12.15:48:32 P.20131013
+EN work/submultiplex 1676310888 \
+      FL "C:/ISE Project/Dovahmultiplexstruct/submultiplex.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/submultiplex/Behavioral 1676310889 \
+      FL "C:/ISE Project/Dovahmultiplexstruct/submultiplex.vhd" \
+      EN work/submultiplex 1676310888

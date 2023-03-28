@@ -1,0 +1,7 @@
+[Inputs]
+sam
+=aam[1:0]=
+=bam[1:0]=
+[Outputs]
+=oam[1:0]=
+[BiDir]

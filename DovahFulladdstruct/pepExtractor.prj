@@ -1,0 +1,5 @@
+work	"Dovahfulladd.vhd"
+work	"andgate.vhd"
+work	"halfadder.vhd"
+work	"orgate.vhd"
+work	"xorgate.vhd"

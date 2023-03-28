@@ -1,0 +1,29 @@
+Command line:
+   TBW_VII_Seg_Disp_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57461
+
+Wed Mar 29 01:13:13 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5151.65 Meg
+
+ Total Signals          : 4
+ Total Nets             : 11
+ Total Signal Drivers   : 2
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 389
+Total Line Count : 16
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4994.36 Meg
+
+Wed Mar 29 01:14:15 2023
+

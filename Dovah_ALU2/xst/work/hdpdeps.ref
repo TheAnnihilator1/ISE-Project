@@ -1,0 +1,47 @@
+V3 35
+FL "C:/ISE Project/Dovah_ALU2/ALU.vhd" 2023/03/15.04:42:07 P.20131013
+EN work/ALU 1678836376 FL "C:/ISE Project/Dovah_ALU2/ALU.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ALU/Behavioral 1678836377 \
+      FL "C:/ISE Project/Dovah_ALU2/ALU.vhd" EN work/ALU 1678836376 CP AU CP LU \
+      CP MUX
+FL "C:/ISE Project/Dovah_ALU2/ANDgate.vhd" 2023/03/15.04:45:40 P.20131013
+EN work/ANDgate 1678836362 FL "C:/ISE Project/Dovah_ALU2/ANDgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ANDgate/Behavioral 1678836363 \
+      FL "C:/ISE Project/Dovah_ALU2/ANDgate.vhd" EN work/ANDgate 1678836362
+FL "C:/ISE Project/Dovah_ALU2/AU.vhd" 2023/03/15.04:54:34 P.20131013
+EN work/AU 1678836370 FL "C:/ISE Project/Dovah_ALU2/AU.vhd" PB ieee/std_logic_1164 1381692176
+AR work/AU/Behavioral 1678836371 \
+      FL "C:/ISE Project/Dovah_ALU2/AU.vhd" EN work/AU 1678836370 CP MUXA \
+      CP Halfadder CP ORgate
+FL "C:/ISE Project/Dovah_ALU2/halfadder.vhd" 2023/03/15.04:55:59 P.20131013
+EN work/halfadder 1678836366 FL "C:/ISE Project/Dovah_ALU2/halfadder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/halfadder/Behavioral 1678836367 \
+      FL "C:/ISE Project/Dovah_ALU2/halfadder.vhd" EN work/halfadder 1678836366
+FL "C:/ISE Project/Dovah_ALU2/LU.vhd" 2023/03/15.04:43:33 P.20131013
+EN work/LU 1678836372 FL "C:/ISE Project/Dovah_ALU2/LU.vhd" PB ieee/std_logic_1164 1381692176
+AR work/LU/Behavioral 1678836373 \
+      FL "C:/ISE Project/Dovah_ALU2/LU.vhd" EN work/LU 1678836372 CP XORgate \
+      CP ANDgate CP MUXA
+FL "C:/ISE Project/Dovah_ALU2/MUX.vhd" 2023/03/15.04:47:08 P.20131013
+EN work/MUX 1678836374 FL "C:/ISE Project/Dovah_ALU2/MUX.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX/Behavioral 1678836375 \
+      FL "C:/ISE Project/Dovah_ALU2/MUX.vhd" EN work/MUX 1678836374
+FL "C:/ISE Project/Dovah_ALU2/MUXA.vhd" 2023/03/15.04:46:33 P.20131013
+EN work/MUXA 1678836364 FL "C:/ISE Project/Dovah_ALU2/MUXA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUXA/Behavioral 1678836365 \
+      FL "C:/ISE Project/Dovah_ALU2/MUXA.vhd" EN work/MUXA 1678836364
+FL "C:/ISE Project/Dovah_ALU2/ORgate.vhd" 2023/03/15.04:50:09 P.20131013
+EN work/ORgate 1678836368 FL "C:/ISE Project/Dovah_ALU2/ORgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ORgate/Behavioral 1678836369 \
+      FL "C:/ISE Project/Dovah_ALU2/ORgate.vhd" EN work/ORgate 1678836368
+FL "C:/ISE Project/Dovah_ALU2/XORgate.vhd" 2023/03/15.04:45:40 P.20131013
+EN work/XORgate 1678836360 FL "C:/ISE Project/Dovah_ALU2/XORgate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/XORgate/Behavioral 1678836361 \
+      FL "C:/ISE Project/Dovah_ALU2/XORgate.vhd" EN work/XORgate 1678836360

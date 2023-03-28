@@ -1,0 +1,4 @@
+EN half_adder NULL "C:/ISE Project/y/Half_Adder.vhd" sub00/vhpl02 1680035888
+EN full_adder NULL "C:/ISE Project/y/fyh.vhd" sub00/vhpl00 1680035822
+AR full_adder behavioral "C:/ISE Project/y/fyh.vhd" sub00/vhpl01 1680035823
+AR half_adder behavioral "C:/ISE Project/y/Half_Adder.vhd" sub00/vhpl03 1680035889

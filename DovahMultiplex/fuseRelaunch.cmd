@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/DovahMultiplex/multiulti_isim_beh.exe" -prj "C:/ISE Project/DovahMultiplex/multiulti_beh.prj" "work.multiulti" 

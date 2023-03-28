@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Project/Dovahhalfsubt/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Project/Dovahhalfsubt/xst"
+elaborate
+-ifn halfsubt.prj
+-ifmt mixed

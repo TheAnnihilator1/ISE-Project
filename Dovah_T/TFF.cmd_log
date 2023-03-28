@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ISE Project/Dovah_T/TFF.xst" -ofn "C:/ISE Project/Dovah_T/TFF.syr" 

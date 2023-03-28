@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/ISE Project/Dovahfullsubstruct/fullsub_isim_beh.exe" -prj "C:/ISE Project/Dovahfullsubstruct/fullsub_beh.prj" "work.fullsub" 
