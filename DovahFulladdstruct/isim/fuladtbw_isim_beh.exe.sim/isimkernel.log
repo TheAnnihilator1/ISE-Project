@@ -1,0 +1,10 @@
+Command line:
+   fuladtbw_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57981
+
+Wed Mar 29 02:09:12 2023
+
+
+ Elaboration Time: 0.03125 sec
